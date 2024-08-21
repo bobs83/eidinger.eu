@@ -1,9 +1,9 @@
 :root {
   --primary-color: #d7241b;
   --secondary-color: #949494;
-  --light-color: #f8f9fa;
+  --light-color: #ffffff;
   --dark-color: #343a40;
-  --font-family: "Arial, sans-serif";
+  --font-family: "Roboto", sans-serif;
   --font-size: 16px;
   --padding: 1rem;
   --link-color: #000000; /* Added variable for link color */
