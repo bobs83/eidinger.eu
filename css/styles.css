@@ -1,12 +1,13 @@
 :root {
-  --primary-color: #d7241b;
+  --primary-color: #cc091e;
   --secondary-color: #949494;
   --light-color: #ffffff;
   --dark-color: #343a40;
-  --font-family: "Roboto", sans-serif;
+  --font-family: "arial", sans-serif;
+  --font-color: #a3a19e;
   --font-size: 16px;
   --padding: 1rem;
-  --link-color: #000000; /* Added variable for link color */
+  --link-color: #cc091e; /* Added variable for link color */
 }
 
 body {
@@ -17,14 +18,9 @@ body {
 }
 
 a {
-  color: var(--link-color); /* Set link color to primary color */
-}
-
-.navbar .nav-link {
-  font-weight: bold; /* Make navbar links bold */
-  color: var(
-    --primary-color
-  ) !important; /* Ensure navbar links use primary color */
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 footer {
@@ -34,18 +30,40 @@ footer {
   padding: var(--padding);
 }
 
+h5 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+p {
+  color: var(--font-color);
+  font-size: 20px;
+  line-height: 33px;
+}
+
 .navbar {
   background-color: var(--light-color);
 }
 
-.navbar-brand {
-  color: var(--primary-color);
+.navbar .nav-link {
+  font-weight: bold; /* Make navbar links bold */
+  color: var(
+    --primary-color
+  ) !important; /* Ensure navbar links use primary color */
 }
 
-.navbar-toggler {
-  border-color: var(--secondary-color);
+.navbar .nav-link:hover {
+  color: var(
+    --secondary-color
+  ) !important; /* Change color to secondary color on hover */
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2868, 68, 68, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+.not-bold-link {
+  font-weight: normal; /* Ensure the link is not bold */
+  color: var(--link-color);
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+.top-image {
+  padding-top: 120px;
 }
