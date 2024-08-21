@@ -14,12 +14,17 @@ body {
   font-size: var(--font-size);
   background-color: var(--light-color);
   color: var(--dark-color);
-  margin: 0;
-  padding: 0;
 }
 
 a {
-  color: var(--link-color); /* Set link color to black */
+  color: var(--link-color); /* Set link color to primary color */
+}
+
+.navbar .nav-link {
+  font-weight: bold; /* Make navbar links bold */
+  color: var(
+    --primary-color
+  ) !important; /* Ensure navbar links use primary color */
 }
 
 footer {
