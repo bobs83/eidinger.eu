@@ -67,3 +67,12 @@ p {
 .top-image {
   padding-top: 120px;
 }
+
+.impressum-text {
+  text-align: justify;
+  line-height: 33px;
+}
+
+.justify-none {
+  text-align: left; /* Ensures text is not justified */
+}
