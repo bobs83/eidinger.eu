@@ -76,3 +76,11 @@ p {
 .justify-none {
   text-align: left; /* Ensures text is not justified */
 }
+
+.datenschutz-text {
+  text-align: center;
+}
+
+.red {
+  color: var(--primary-color);
+}
