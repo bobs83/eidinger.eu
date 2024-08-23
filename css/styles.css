@@ -88,6 +88,23 @@ p {
   color: var(--primary-color);
 }
 
+.vacancy-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--font-color);
+  font-size: 16px;
+  line-height: 33px;
+  text-align: justify;
+}
+
+.vacancy-red {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--primary-color);
+  font-size: 16px;
+  line-height: 33px;
+  text-align: justify;
+  font-weight: bold;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: var(--carousel-control-bg-color);
@@ -106,4 +123,11 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.lawlist {
+  list-style-type: none;
+  border: none;
+  line-height: 1.9;
+  color: var(--primary-color);
 }
