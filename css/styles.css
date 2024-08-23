@@ -84,12 +84,16 @@ p {
   text-align: center;
 }
 
+/* span */
 .red {
   color: var(--primary-color);
 }
+.span-mini {
+  font-size: 12px;
+  font-weight: normal;
+}
 
 .vacancy-text {
-  font-family: Arial, Helvetica, sans-serif;
   color: var(--font-color);
   font-size: 16px;
   line-height: 33px;
@@ -97,12 +101,18 @@ p {
 }
 
 .vacancy-red {
-  font-family: Arial, Helvetica, sans-serif;
   color: var(--primary-color);
   font-size: 16px;
   line-height: 33px;
   text-align: justify;
   font-weight: bold;
+}
+
+.urteile-text {
+  color: var(--font-color);
+  font-size: 16px;
+  line-height: 33px;
+  text-align: justify;
 }
 
 .carousel-control-prev-icon,
@@ -128,6 +138,6 @@ p {
 .lawlist {
   list-style-type: none;
   border: none;
-  line-height: 1.9;
+  line-height: 2.5;
   color: var(--primary-color);
 }
